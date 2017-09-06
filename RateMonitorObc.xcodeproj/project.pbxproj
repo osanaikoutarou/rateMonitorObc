@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC79E6CFEE8AA068105F4AC /* libPods-RateMonitorObc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C03A68DC7EBB35DE7CE0A7E /* libPods-RateMonitorObc.a */; };
 		DA9D531A1F5CFD1000AED777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D53191F5CFD1000AED777 /* main.m */; };
+		DAD071821F5D013F007E38E0 /* WebAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0717F1F5D013F007E38E0 /* WebAPI.m */; };
+		DAD071831F5D013F007E38E0 /* WebAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD071811F5D013F007E38E0 /* WebAPIRequest.m */; };
+		DAD071991F5D0305007E38E0 /* NSDictionary+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0718A1F5D0305007E38E0 /* NSDictionary+Utility.m */; };
+		DAD0719A1F5D0305007E38E0 /* NSMutableArray+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0718C1F5D0305007E38E0 /* NSMutableArray+helper.m */; };
+		DAD0719B1F5D0305007E38E0 /* NSMutableArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0718E1F5D0305007E38E0 /* NSMutableArray+Utility.m */; };
+		DAD0719C1F5D0305007E38E0 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD071901F5D0305007E38E0 /* NSString+Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C03A68DC7EBB35DE7CE0A7E /* libPods-RateMonitorObc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RateMonitorObc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		304C1F7D08586E5930FD43FA /* Pods-RateMonitorObc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateMonitorObc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RateMonitorObc/Pods-RateMonitorObc.debug.xcconfig"; sourceTree = "<group>"; };
+		545934709D6C14BA0BB77174 /* Pods-RateMonitorObc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateMonitorObc.release.xcconfig"; path = "Pods/Target Support Files/Pods-RateMonitorObc/Pods-RateMonitorObc.release.xcconfig"; sourceTree = "<group>"; };
 		DA9D53161F5CFD1000AED777 /* RateMonitorObc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RateMonitorObc; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9D53191F5CFD1000AED777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD0717E1F5D013F007E38E0 /* WebAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebAPI.h; sourceTree = "<group>"; };
+		DAD0717F1F5D013F007E38E0 /* WebAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebAPI.m; sourceTree = "<group>"; };
+		DAD071801F5D013F007E38E0 /* WebAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebAPIRequest.h; sourceTree = "<group>"; };
+		DAD071811F5D013F007E38E0 /* WebAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebAPIRequest.m; sourceTree = "<group>"; };
+		DAD071891F5D0305007E38E0 /* NSDictionary+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utility.h"; sourceTree = "<group>"; };
+		DAD0718A1F5D0305007E38E0 /* NSDictionary+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utility.m"; sourceTree = "<group>"; };
+		DAD0718B1F5D0305007E38E0 /* NSMutableArray+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+helper.h"; sourceTree = "<group>"; };
+		DAD0718C1F5D0305007E38E0 /* NSMutableArray+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+helper.m"; sourceTree = "<group>"; };
+		DAD0718D1F5D0305007E38E0 /* NSMutableArray+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Utility.h"; sourceTree = "<group>"; };
+		DAD0718E1F5D0305007E38E0 /* NSMutableArray+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Utility.m"; sourceTree = "<group>"; };
+		DAD0718F1F5D0305007E38E0 /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		DAD071901F5D0305007E38E0 /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC79E6CFEE8AA068105F4AC /* libPods-RateMonitorObc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26E696323330E7F76DA0D8FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				304C1F7D08586E5930FD43FA /* Pods-RateMonitorObc.debug.xcconfig */,
+				545934709D6C14BA0BB77174 /* Pods-RateMonitorObc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA9D530D1F5CFD1000AED777 = {
 			isa = PBXGroup;
 			children = (
 				DA9D53181F5CFD1000AED777 /* RateMonitorObc */,
 				DA9D53171F5CFD1000AED777 /* Products */,
+				26E696323330E7F76DA0D8FC /* Pods */,
+				F78423D6DA6C12BD37F9A92C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +91,45 @@
 		DA9D53181F5CFD1000AED777 /* RateMonitorObc */ = {
 			isa = PBXGroup;
 			children = (
+				DAD071841F5D02E3007E38E0 /* Category */,
+				DA9D53201F5CFDDC00AED777 /* Hoge */,
 				DA9D53191F5CFD1000AED777 /* main.m */,
+				DAD0717E1F5D013F007E38E0 /* WebAPI.h */,
+				DAD0717F1F5D013F007E38E0 /* WebAPI.m */,
+				DAD071801F5D013F007E38E0 /* WebAPIRequest.h */,
+				DAD071811F5D013F007E38E0 /* WebAPIRequest.m */,
 			);
 			path = RateMonitorObc;
+			sourceTree = "<group>";
+		};
+		DA9D53201F5CFDDC00AED777 /* Hoge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Hoge;
+			sourceTree = "<group>";
+		};
+		DAD071841F5D02E3007E38E0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DAD071891F5D0305007E38E0 /* NSDictionary+Utility.h */,
+				DAD0718A1F5D0305007E38E0 /* NSDictionary+Utility.m */,
+				DAD0718B1F5D0305007E38E0 /* NSMutableArray+helper.h */,
+				DAD0718C1F5D0305007E38E0 /* NSMutableArray+helper.m */,
+				DAD0718D1F5D0305007E38E0 /* NSMutableArray+Utility.h */,
+				DAD0718E1F5D0305007E38E0 /* NSMutableArray+Utility.m */,
+				DAD0718F1F5D0305007E38E0 /* NSString+Utility.h */,
+				DAD071901F5D0305007E38E0 /* NSString+Utility.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F78423D6DA6C12BD37F9A92C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C03A68DC7EBB35DE7CE0A7E /* libPods-RateMonitorObc.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -69,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA9D531D1F5CFD1000AED777 /* Build configuration list for PBXNativeTarget "RateMonitorObc" */;
 			buildPhases = (
+				662395222DA9BA64DE3A895F /* [CP] Check Pods Manifest.lock */,
 				DA9D53121F5CFD1000AED777 /* Sources */,
 				DA9D53131F5CFD1000AED777 /* Frameworks */,
 				DA9D53141F5CFD1000AED777 /* CopyFiles */,
+				60A301E354DB23AA5105B74A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -115,12 +187,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60A301E354DB23AA5105B74A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RateMonitorObc/Pods-RateMonitorObc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662395222DA9BA64DE3A895F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA9D53121F5CFD1000AED777 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD0719C1F5D0305007E38E0 /* NSString+Utility.m in Sources */,
+				DAD071991F5D0305007E38E0 /* NSDictionary+Utility.m in Sources */,
+				DAD0719A1F5D0305007E38E0 /* NSMutableArray+helper.m in Sources */,
+				DAD071831F5D013F007E38E0 /* WebAPIRequest.m in Sources */,
+				DAD0719B1F5D0305007E38E0 /* NSMutableArray+Utility.m in Sources */,
 				DA9D531A1F5CFD1000AED777 /* main.m in Sources */,
+				DAD071821F5D013F007E38E0 /* WebAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,16 +329,20 @@
 		};
 		DA9D531E1F5CFD1000AED777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304C1F7D08586E5930FD43FA /* Pods-RateMonitorObc.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U7MW83A3B2;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		DA9D531F1F5CFD1000AED777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545934709D6C14BA0BB77174 /* Pods-RateMonitorObc.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U7MW83A3B2;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -251,6 +366,7 @@
 				DA9D531F1F5CFD1000AED777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
