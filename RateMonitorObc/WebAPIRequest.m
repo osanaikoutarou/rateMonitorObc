@@ -9,7 +9,7 @@
 #import "WebAPIRequest.h"
 //#import "ApiKey.h"
 
-#define LOG_V(A, ...) if(NO) NSLog(@"%@",[NSString stringWithFormat:A, ## __VA_ARGS__]);
+#define LOG_V(A, ...) //NSLog(@"%@",[NSString stringWithFormat:A, ## __VA_ARGS__]);
 
 @implementation WebAPIRequest
 

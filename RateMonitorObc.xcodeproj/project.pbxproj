@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FC79E6CFEE8AA068105F4AC /* libPods-RateMonitorObc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C03A68DC7EBB35DE7CE0A7E /* libPods-RateMonitorObc.a */; };
+		DA50A3621F60D43D00C81F6B /* Rate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA50A3611F60D43D00C81F6B /* Rate.m */; };
 		DA9D531A1F5CFD1000AED777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9D53191F5CFD1000AED777 /* main.m */; };
 		DAD071821F5D013F007E38E0 /* WebAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD0717F1F5D013F007E38E0 /* WebAPI.m */; };
 		DAD071831F5D013F007E38E0 /* WebAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD071811F5D013F007E38E0 /* WebAPIRequest.m */; };
@@ -33,6 +34,8 @@
 		2C03A68DC7EBB35DE7CE0A7E /* libPods-RateMonitorObc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RateMonitorObc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		304C1F7D08586E5930FD43FA /* Pods-RateMonitorObc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateMonitorObc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RateMonitorObc/Pods-RateMonitorObc.debug.xcconfig"; sourceTree = "<group>"; };
 		545934709D6C14BA0BB77174 /* Pods-RateMonitorObc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RateMonitorObc.release.xcconfig"; path = "Pods/Target Support Files/Pods-RateMonitorObc/Pods-RateMonitorObc.release.xcconfig"; sourceTree = "<group>"; };
+		DA50A3601F60D43D00C81F6B /* Rate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rate.h; sourceTree = "<group>"; };
+		DA50A3611F60D43D00C81F6B /* Rate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rate.m; sourceTree = "<group>"; };
 		DA9D53161F5CFD1000AED777 /* RateMonitorObc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RateMonitorObc; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9D53191F5CFD1000AED777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAD0717E1F5D013F007E38E0 /* WebAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebAPI.h; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				DAD0717F1F5D013F007E38E0 /* WebAPI.m */,
 				DAD071801F5D013F007E38E0 /* WebAPIRequest.h */,
 				DAD071811F5D013F007E38E0 /* WebAPIRequest.m */,
+				DA50A3601F60D43D00C81F6B /* Rate.h */,
+				DA50A3611F60D43D00C81F6B /* Rate.m */,
 			);
 			path = RateMonitorObc;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				DAD0719A1F5D0305007E38E0 /* NSMutableArray+helper.m in Sources */,
 				DAD071831F5D013F007E38E0 /* WebAPIRequest.m in Sources */,
 				DAD0719B1F5D0305007E38E0 /* NSMutableArray+Utility.m in Sources */,
+				DA50A3621F60D43D00C81F6B /* Rate.m in Sources */,
 				DA9D531A1F5CFD1000AED777 /* main.m in Sources */,
 				DAD071821F5D013F007E38E0 /* WebAPI.m in Sources */,
 			);
